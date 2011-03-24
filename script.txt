@@ -1,0 +1,95 @@
+Sinatra Speech
+
+who i am
+
+java developer who was introduced to RoR at our former company's Ruby night
+been using it for personal projects and the odd script at work ever since
+
+outline
+what is sinatra
+why sinatra is great
+
+goal. 
+
+not explain every detail of sinatra
+there aren't that many, and the they well documented in the readme at sinatrarb.com (first hit when googling sinatra)
+also use the source (~1500 lines; far less than Rails/Ramaze/Camping)
+
+what is sinatra? 
+written by Blake Miserany (Heroku) in 2007
+it's a web micro framework - hello world is 4 lines; you can do an aweful lot in 100 lines
+it's DSL for creating web applications in Ruby
+it's a minimalists web framework, and this breeds clean design
+no boilerplate; makes it much easier to focus on the problem, especially at the early stages of a project
+fairly easy to port to rails 
+
+
+
+routes in sinatra
+
+rest routes
+no classes
+verb + uri matcher + block
+liberating because you're not trapped in the framework.  feels more like writing ruby than writing rails  
+avoid leaky abstraction syndrome
+
+sessions
+
+enable :sessions
+
+views in sinatra
+
+-partials
+
+basically it's
+
+wrappers around RACK request/responses
+
+helpers for status body, redirect, parsing uris, headers, mime types, content types, file upload, download, caching, using templates
+
+templates layout
+
+inline templates
+
+helpers
+
+running sinatra
+ruby
+shotgun
+
+ruby 
+
+
+sinatra vs rails FIGHT!!!
+
+MVC:
+REST:
+active record/sequel/datamapper integration:
+advanced routing: 
+speed:
+testablilty with steak/cucucumber/rspec/testunit:
+access to rails plugins:
+RACK webserver integration
+LOC 
+what its good for
+prototyping
+do one thing web apps
+the perfect framework to make a blog; makes DHH's blog in 10 minutes seem archaic
+REST web service apis to existing applications
+lightweight backends for sites that use javascript front ends like backbone or sproutcore or even rapheal
+making web tools: 
+  eg deployment with chef/Net::SSH/capistrano etc
+  interfaces over web sites using nogogiri
+  prototyping
+  simple one function web apps
+  playing with ideas
+
+in conclusion, i think that sinatra should be in every software craftsman's toolbox
+(image of toolbox)
+
+resources
+
+example blog (126 lines of ruby):
+https://github.com/adamwiggins/scanty
+github services
+

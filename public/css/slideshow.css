@@ -1,0 +1,63 @@
+#content {
+  font-family: 'georgia', 'bitstream vera serif', serif; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#notes {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#show_info {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+body {
+  background: #fff url(../images/sinatra_background.gif) no-repeat fixed right 130px;
+  font-size: 24px;
+}
+
+pre {
+  font-size: 16px;
+  border: 2px solid #D5D0D2;
+  width: 100%;
+  max-height: 60%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow : auto;
+}
+
+h2 {
+  font-size:36px;
+}
+
+li {
+  font-size:24px;
+}
+
+h3 {
+    font-size: 16px;
+    /*letter-spacing: 4px;*/
+    line-height: 1.25;
+    text-transform: uppercase;
+    font-family: "lucida console","monaco","andale mono","bitstream vera sans mono","consolas",monospace;
+}
+
+#nav_prev {
+     position: absolute;
+     bottom: 10px;
+}
+
+#nav_next {
+     position: absolute;
+     bottom: 10px;
+     right: 10px;
+}
+
+

@@ -1,0 +1,40 @@
+notes:
+
+philosophy is start simple
+
+rails generates 72 files, it's now up to over 90 kloc
+
+not MVC.  you can do whatever you want.
+
+CGI programming
+
+abstractions you don't need breed complexity
+
+minimalism breeds simplicity
+
+if rails is painting by numbers, sinatra is starting with a blank slate with some great brushes (with CSS and javasciript to do the colouring and the animation, the way it should be).
+
+no generation
+
+content_type
+
+declarative
+
+json vs xml
+
+rails:
+responds_to
+
+sinatra:
+
+get '/users.xml'
+  content_type :xml
+  @user.to_xml
+
+regexes.  you can write regexes as routes and then use matches to assemble your parameters
+
+
+use sinatra. 
+
+even better write your own.
+
