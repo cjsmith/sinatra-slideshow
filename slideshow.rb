@@ -204,7 +204,7 @@ __END__
 
 @@ slide13
 #content
-  h2. Deployment
+  %h2. Deployment
   %ul
     %li capistrano
     %li heroku
