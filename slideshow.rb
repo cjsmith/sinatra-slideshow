@@ -94,6 +94,7 @@ __END__
   %ul 
     %li short and sweet intro; any longer would be misrepresenting Sinatra
     %li I'm a Java guy so I hope a room full of 40 Ruby guys will be able to teach me stuff as well as each other
+    %li If at any point you want me to dive into a live example just let me know
     
 @@slide3
 #content
