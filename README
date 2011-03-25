@@ -1,1 +1,3 @@
 This is a super simple Sinatra app to present Sinatra to the Vancouver Ruby Meetup.  It requires Ruby 1.9 and uses ultraviolet to render code snippets, and haml to render the slides.
+
+You can use 'n' to advance to the next slide, 'p' to go back to the previous slide and 'i' to get my notes on the slide.
