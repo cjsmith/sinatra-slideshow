@@ -320,13 +320,15 @@ __END__
   %h2 Resources
   %ul
     %li 
-      %a{href:'http://sinatrarb.com/'} Sinatra Readme
+      %a{href:'http://sinatrarb.com/intro'} Sinatra Readme
     %li   
       %a{href:'http://github.com/sinatra'} Use the Source!
     %li 
       %a{href:'http://blog.peepcode.com/tutorials/2010/rethinking-rails-3-routes'} Rethinking Rails Routes (http://blog.peepcode.com/tutorials/2010/rethinking-rails-3-routes)
     %li 
-      %a{href:'http://colins_sinatra_presentation.heroku.com/'} This presentation
+      %a{href:'http://colins-sinatra-presentation.heroku.com/'} This presentation
     %li 
       %a{href:'https://github.com/adamwiggins/scanty'} Scanty - A Minimalist Blog
+    %li
+      %a{href:'https://github.com/cjsmith'} My github
 
