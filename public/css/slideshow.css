@@ -33,12 +33,18 @@ pre {
   overflow : auto;
 }
 
+td,th {
+  border: 1px solid #D5D0D2;
+  padding: 1em;
+}
+
 h2 {
   font-size:36px;
 }
 
 li {
   font-size:24px;
+  padding: 10px;
 }
 
 h3 {

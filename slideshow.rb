@@ -102,6 +102,7 @@ __END__
     %li Written by Blake Miserany (Heroku) in 2007
     %li It's DSL for creating web applications in Ruby
     %li It's a web micro framework 
+    %li Basic premise is "start simple"
   ~load_snippet('hello_world.rb')  
 #notes
   %ul
@@ -204,31 +205,115 @@ __END__
 
 @@ slide13
 #content
-  %h2. Deployment
+  %h2 Deployment
   %ul
     %li capistrano
     %li heroku
 #notes
- % 
 
+@@ slide14
+#content
+  %h2 Rails Interoperabiliity
+  %ul
+    %li You can use Rack to Route to Sinatra from Rails in your routes.rb file
+  ~load_snippet('rails_routes.rb')
+  
 @@ slide15
 #content
-  %h2 Minimalism
+  %h2 Migrating to Rails
+  Not that hard if your Sinatra app is MVCish.  
+  %ul 
+    %li Put your route handlers into your Rails controllers/actions
+    %li Migrate your models/templates to your Rails models/views
+
+@@ slide16
+#content
+  %h2 Rails vs. Sinatra Fight!!!
+  %table
+    %tr
+      %th Ninja Skill
+      %th Rails
+      %th Sinatra
+    %tr
+      %th MVC
+      %td Check
+      %td DIY
+    %tr
+      %th ORM Integration
+      %td Check
+      %td Sure
+    %tr
+      %th Nested Routes
+      %td Check
+      %td Need to be creative
+    %tr
+      %th Testability w/ RSpec/Steak/Cucumber/...
+      %td Check
+      %td Definitely
+    %tr
+      %th Rack Integration
+      %td Check
+      %td Check
+    %tr
+      %th Access To Rails Plugins
+      %td Check
+      %td Nope 
+
+@@ slide17
+#content
+  %h2 Part 2. Why This is Awesome
+  %ul
+    %li It provides a minimum amount of friction to realizing ideas(!!!)
+    %li You can quickly vet your ideas and get feedback from your friends
+    %li You can get stuff done
+    %li It's pure and fun.  You're not programming by numbers any more. 
+
+@@ slide18
+ #content
+  %h2 Things it's awesome for.
+  %ul
+    %li Prototyping
+    %li Do one thing web apps
+    %li The perfect framework to make a blog (or slideshow)
+    %li A back end to a js framework such as Sproutcore or backbone.js
+
+@@ slide19
+  %h2 Some things I've used it for
+  %ul      
+    %li Creating web interfaces for starting/stopping monitoring servers using Net::SSH
+    %li Creating simple actions for Raphael based javascript code
+    %li Creating a simple polling application to poll people in my company on various topics
+    %li Clean REST Web Service APIs
+    %li Creating Alert Creation Interface around Craigslist using Nokogiri and Redis
+
+@@ slide20
+#content
+  %h2 What have you used it for? 
+    
+@@ slide21
+#content
+  %h2 On Minimalism
   %ul
     %li breeds clean design
     %li no boilerplate so you can execute your ideas right away
     %li makes it easier to focus on the problem
-
-@@slideN
-#content
-  %Rails Interoperability
 
 @@ slideN
 
 
 @@slideN
 #content
-  %h2 Getting Startedf
+  %h2 Getting Started
   Fire up shotgun...
-  
+ 
+@@slide100 
+
+#content
+  %h2 Resources
+  %ul
+    %li %a {href:'http://sinatrarb.com/'} Sinatra Readme
+    %li %a {href:'http://github.com/sinatra'} Use the Source!
+    %li %a {href:'http://blog.peepcode.com/tutorials/2010/rethinking-rails-3-routes'} Rethinking Rails Routes (http://blog.peepcode.com/tutorials/2010/rethinking-rails-3-routes)
+    %li %a {href:'http://colins_sinatra_presentation.heroku.com/'} This presentation
+    %li %a {
 
