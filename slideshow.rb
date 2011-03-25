@@ -121,7 +121,9 @@ __END__
     %li $ ruby your_sinatra_app.rb
     %li Fire up shotgun...
 #notes
-  %li sinatra is self contained and can run thin, mongrel, nginx
+  %li sinatra is self contained and will try to run thin, mongrel, webbrick
+  %li it can run on any rack web server
+
 @@ slide5
 #content
   %h2 RESTful Routes:
